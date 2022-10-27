@@ -1,12 +1,9 @@
-let score =  Math.floor(Math.random() * 101);
+let score =  0;
 const students = [];
-let myvar;
 
-if (score === '') {
-    console.log('No data');
-}
 
-if (!score || score < 0 || score > 100) {
+
+if (score < 0 || score > 100) {
     console.log("Invalid Score");
 
 } else if (score >= 85 && score <= 100) {
